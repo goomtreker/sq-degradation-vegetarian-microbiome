@@ -7,8 +7,8 @@ from multiprocessing import Pool
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 
-locus_info = pd.read_csv('locus_groups.csv') # 
-output_dir = "locus_output"
+locus_info = pd.read_csv('locus_groups.csv') # Adjust for your input
+output_dir = "locus_output" # output dir for gene clusters
 os.makedirs(output_dir, exist_ok=True)
 
 def extract_contig_from_gffgzfile(genome):
