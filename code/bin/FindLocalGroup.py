@@ -64,8 +64,8 @@ def main():
     parser = argparse.ArgumentParser(
         description="Find co-localized gene groups from GFF annotations and hit table."
     )
-    parser.add_argument("hits_table", help="Path to hits.csv file containing 'hit_id', 'Genome', and 'gene_name' columns.")
-    parser.add_argument("gff_folder", help="Directory with .gff.gz annotation files.")
+    parser.add_argument("hits_table", help="Path to hits.csv file containing 'hit_id', 'Genome', and 'gene_name' columns.", required=True)
+    parser.add_argument("gff_folder", help="Directory with .gff.gz annotation files.", required=True)
     parser.add_argument("-t", "--threads", type=int, default=4, help="Number of parallel threads (default: 4)")
     parser.add_argument("-w", "--window", type=int, default=5000,
                         help="Window size in base pairs for gene co-localization (default: 5000)")
