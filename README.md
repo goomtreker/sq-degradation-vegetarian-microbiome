@@ -17,6 +17,7 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 ---
 
 ## 📁 Directory Structure
+---
 ```
 ./
 ├── code
@@ -36,4 +37,29 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 │   └── metadata_rpkm.csv
 ├── environment.yml
 └── README.md
+```
+
+### 🔧 Script Descriptions
+
+- [`amplicon_data_analysis.sh`](code/bin/amplicon_data_analysis.sh) — Bash script for processing amplicon variation data.
+- [`bwa_samtools.sh`](code/bin/bwa_samtools.sh) — Bash pipeline for mapping reads using BWA and processing alignments with SAMtools.
+- [`coverm.sh`](code/bin/coverm.sh) — Calculates RPKM values from read mappings for AGP locus coverage analysis (bash).
+- [`DA_species_masline2.R`](code/bin/DA_species_masline2.R) — Builds a MASLiNE model for differential abundance of species (R).
+- [`diamond.sh`](code/bin/diamond.sh) — Performs DIAMOND-based protein alignment (bash).
+- [`exctractlocuses.py`](code/bin/exctractlocuses.py) — Extracts gene clusters with ±1000 bp flanks into FASTA format (adjustable).
+- [`ExtractLocalGroup.py`](code/bin/ExtractLocalGroup.py) — Aggregates gene cluster DataFrames from `FindLocalGroup` output files into a single table (python).
+- [`FindLocalGroup.py`](code/bin/FindLocalGroup.py) — Detects co-localized genes within a 5000 bp window and generates annotated GFF-style DataFrames (python).
+- [`jackhmmer.sh`](code/bin/jackhmmer.sh) — Runs JackHMMER protein alignments against the target database (bash).
+- [`phyl.R`](code/bin/phyl.R) — Infers phylogenetic relationships based on the identified gene clusters (R).
+
+
+---
+
+## ⚙️ Requirements
+
+You can create the environment with:
+
+```bash
+conda env create -f environment.yml
+conda activate sqd-analysis
 ```
