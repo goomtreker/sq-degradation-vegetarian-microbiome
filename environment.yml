@@ -1,4 +1,4 @@
-name: my-env
+name: sqd_analysis
 channels:
   - conda-forge
 dependencies:
