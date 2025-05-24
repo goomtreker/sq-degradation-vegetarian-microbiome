@@ -1,3 +1,4 @@
+#!/bin/bash
 bwa index SQD_locus_for_mapping.fasta
 
 WORKDIR="$PWD"

@@ -1,3 +1,4 @@
+#!/bin/bash
 split -l 10 bai_list.txt bam_batch_
 
 WORK_DIR="$PWD"

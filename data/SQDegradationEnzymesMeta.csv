@@ -1,0 +1,59 @@
+id_seq,gene_name,alt_gene_name,coment,defining,organism,taxonomy,protein_name,enzyme,Pathway_all
+7OFY_1|Chains,7NBZ_A,,"component of the transport system SQ degradation, binding protein",,Agrobacterium tumefaciens C58,358.0,7NBZ_A,SQ binding protein,Sulfo-TK
+tr|J0N3W2|J0N3W2_CLOS9,WP_009065225.1,,"it can be realted to SQ-degradation pathway, but not need to involve in co-localization",,Clostridium sp. MSTE9,1105031.0,WP_009065225.1,,
+WP_017963854.1,WP_017963854.1,,"it can be realted to SQ-degradation pathway, but not need to involve in co-localization",,Rhizobium,379.0,WP_017963854.1,NADH-quinone oxidoreductase subunit NuoH,proteins that were significantly increased in SQ-fed bacteria
+WP_017964386.1,WP_017964386.1,,above,,Rhizobium,379.0,WP_017964386.1,citrate synthase/methylcitrate synthase,proteins that were significantly increased in SQ-fed bacteria
+WP_017965793.1,WP_017965793.1,,above,,Rhizobium,379.0,WP_017965793.1,NAD(P)-dependent oxidoreductase,proteins that were significantly increased in SQ-fed bacteria
+XKS62012.1,csqR,,,,Escherichia coli str. K-12 substr. MG1655,511145.0,CsqR,DeoR/GlpR family DNA-binding transcription regulator,
+NP_418320.2,csqR,,,,Escherichia coli str. K-12 substr. MG1655,511145.0,CsqR,sulfo-EMP regulator,sulfo-EMP
+WP_017967310.1,sedA,,,yes,Rhizobium,379.0,SedA,SQ dehydrogenase,sulfo-ED
+WP_017967307.1,sedC,,name from article https://d197for5662m48.cloudfront.net/documents/publicationstatus/138329/preprint_pdf/6e49889a3b04aee87ce064420b6a5667.pdf ,yes,Rhizobium,379.0,SedC,SG dehydratase,sulfo-ED
+WP_017967308.1,sedD,,,yes,Rhizobium,379.0,SedD,KDSG aldolase,sulfo-ED
+tr|A0A2P6MHT3|A0A2P6MHT3_ALKUR,slaB,,,,Alkalicoccus urumqiensis,1548213.0,SlaB,Aldehyde dehydrogenase,"sulfo-EMP, TAL, ED"
+sp|A0A7W3RCJ3|SLAD_PRIAR,slaB,"slaD, sftD",this can be paraloges of slaD,,Priestia aryabhattai,412384.0,SlaB,3-sulfolactaldehyde dehydrogenase,"Sulfo-TAL, EMP, ED"
+sp|D5E1S7.1|SLAD_PRIM1,slaB,"sftD, slaD","""seems the slaB and slaD are paraloges""",,Priestia megaterium (strain ATCC 12872 / QMB1551),545693.0,SlaB ,"
+3-sulfolactaldehyde dehydrogenase","sulfo-EMP, TAL, ED"
+sp|A9CEY9.1|SMOF_AGRFC,smoF,smoF,transport component of sulfo-ASDO pathway,,Agrobacterium tumefaciens,358.0,SmoF,6-dehydroglucose reductase,"sulfo-ASDO, sulfo-ASMO"
+MCD4849452.1,sqgA,,retrived from https://pmc.ncbi.nlm.nih.gov/articles/PMC8873060/,,Arthrobacter sp. AK01,,SqgA,Oxidoreductase,sulfo-EMP
+sp|A0A2P6MHY1.1|SQIA_ALKUR,sqiA,,,yes,Alkalicoccus urumqiensis,1548213.0,SqiA,Sulfofructosephosphate aldolase,sulfo-EMP
+sp|A0A2P6MHY1|SQIA_ALKUR,sqiA,,,yes,Alkalicoccus urumqiensis,1548213.0,SqiA,Sulfofructosephosphate aldolase,sulfo-EMP
+sp|A0A2P6MHT4|SQIK_ALKUR,sqiK,,,yes,Alkalicoccus urumqiensis,1548213.0,SqiK,Sulfofructose kinase,sulfo-EMP
+sp|A0A2P6MHT4.1|SQIK_ALKUR,sqiK,,,yes,Alkalicoccus urumqiensis,1548213.0,SqiK,Sulfofructose kinase,sulfo-EMP
+tr|A0A1A9EZ58|A0A1A9EZ58_9GAMM,sqoD,,,yes,Marinobacterium aestuarii,1821621.0,SqoD,TauD/TfdA-like domain-containing protein,sulfo-ASDO
+sp|A9CEY7.1|SQMOX_AGRFC,squD,smoC,,yes,Agrobacterium fabrum str. C58,176299.0,SquD,Sulfoquinovose monooxygenase,sulfo-ASMO
+sp|Q2G5J4.1|SQMOX_NOVAD,squD,smoC,,yes,Novosphingobium aromaticivorans,279238.0,SquD,Sulfoquinovose monooxygenase,sulfo-ASMO
+pdb|7OH2|B,squD,,lets take another query for sqvD ,,Xaviernesmea oryzae,464029.0,SquD,FMNH2-dependent monooxygenase for oxidative desulfurization of sulfoquinovose,Sulfo-ASMO
+sp|A9CEY7|SQMOX_AGRFC,squD,smoC,,yes,Agrobacterium fabrum str. C58,176299.0,SquD,Sulfoquinovose monooxygenase,sulfo-ASMO
+sp|Q2G5J3|DHGRD_NOVAD,squF,,,,Novosphingobium aromaticivorans,279238.0,SquF,6-dehydroglucose reductase,"sulfo-ASMO, ASDO"
+sp|Q2G5J3.1|DHGRD_NOVAD,squF,,,,Novosphingobium aromaticivorans,279238.0,SquF,6-dehydroglucose reductase,"sulfo-ASMO, ASDO"
+pdb|7BC0|A,squF,smoB,,,Agrobacterium fabrum str. C58,176299.0,SquF,aldo-keto reductase,Sulfo-TK
+sp|A9CEY6|DHGRD_AGRFC,squF,smoB,,,Agrobacterium fabrum str. C58,176299.0,SquF,6-dehydroglucose reductase,"sulfo-ASDO, sulfo-ASMO"
+tr|A0A1A9EZ66|A0A1A9EZ66_9GAMM,squF,,,,Marinobacterium aestuarii,1821621.0,SquF ,Oxidoreductase,"sulfo-ASDO, ASMO"
+sp|A9CEY6.1|DHGRD_AGRFC,squF,smoB,,,Agrobacterium fabrum str. C58,176299.0,SquF,6-dehydroglucose reductase,"sulfo-ASDO, sulfo-ASMO"
+sp|D5E1T2.1|SFTAL_PRIM1,sqvA,sftT,,yes,Priestia megaterium (strain ATCC 12872 / QMB1551),545693.0,SqvA,6-deoxy-6-sulfo-D-fructose transaldolase,Sulfo-TAL
+sp|A0A7W3N5X5|SFTAL_PRIAR,sqvA,sftT,,yes,Priestia aryabhattai,412384.0,SqvA,6-deoxy-6-sulfo-D-fructose transaldolase,Sulfo-TAL
+sp|J1H1H5.1|SQVD_CLOS9,sqvD,,,,Clostridium sp. MSTE9,1105031.0,SqvD,Sulfoquinovose isomerase,"sulfo-EMP, TAL, TK"
+sp|D5E1S9.1|SQVD_PRIM1,sqvD,sftI,,,Priestia megaterium (strain ATCC 12872 / QMB1551),545693.0,SqvD,Sulfoquinovose isomerase,"sulfo-EMP, TAL, TK"
+sp|A0A7W3RDA3|SQVD_PRIAR,sqvD,,,,Priestia aryabhattai,412384.0,SqvD,Sulfoquinovose isomerase,"Sulfo-TAL, EMP, TK"
+sp|A0A2P6MHU9.1|SQVD_ALKUR,sqvD,,,,Alkalicoccus urumqiensis,1548213.0,SqvD,Sulfoquinovose isomerase,"sulfo-EMP, EMP, TAL, TK"
+sp|J1H1H5|SQVD_CLOS9,sqvD,,,,Clostridium sp. MSTE9,279238.0,SqvD,Sulfoquinovose isomerase,sulfo-EMP
+sp|J1H1J3|SQWF_CLOS9,sqwF,,,yes,Clostridium sp. MSTE9,279238.0,SqwF,Sulfoacetaldehyde reductase,sulfo-TK
+sp|J1H1J3|SQWF_CLOS9,sqwF,,,yes,Clostridium sp. MSTE9,1105031.0,SqwF,Sulfoacetaldehyde reductase,sulfo-TK
+sp|J0MXK0.1|SQWG_CLOS9,sqwG,,,yes,Clostridium sp. MSTE9,1105031.0,SqwG,6-deoxy-6-sulfo-D-fructose transketolase,sulfo-TK
+sp|J1H0Z7|SQWH_CLOS9,sqwH,,,yes,Clostridium sp. MSTE9,279238.0,SqwH,6-deoxy-6-sulfo-D-fructose transketolase,sulfo-TK
+sp|J1H0Z7.1|SQWH_CLOS9,sqwH,,,yes,Clostridium sp. MSTE9,1105031.0,SqwH,-deoxy-6-sulfo-D-fructose transketolase ,sulfo-TK
+sp|J0MXJ0|SQWI_CLOS9,sqwI,,,yes,Clostridium sp. MSTE9,1105031.0,SqwI,4-deoxy-4-sulfo-D-erythrose isomerase,sulfo-TK
+sp|P37610.3|TAUD_ECOLI,tauD,,related to taurine metabolism,,Escherichia coli str. K-12 substr. MG1655,511145.0,TauD,Alpha-ketoglutarate-dependent taurine dioxygenase,
+XKS62006.1,yihQ,,,,Escherichia coli str. K-12 substr. MG1655,511145.0,YihQ, sulfoquinovosidase,sulfo-EMP
+7OFX_1|Chains,yihQ,,,,Agrobacterium tumefaciens C58,358.0,YihQ,sulfoquinovosidase,Sulfo-TK
+sp|A9CEZ0.1|SQASE_AGRFC,yihQ,,,,Agrobacterium fabrum str. C58,176299.0,SQasE,Sulfoquinovosidase,"sulfo-ASDO,ASMO, TAL, TK,ED"
+SQASE_AGRFC,yihQ,,Alternative name smol,,Agrobacterium fabrum,176299.0,YihQ,sulfoquinovosidase,sulfo-EMP
+AAC76876.1,yihR,,,,Escherichia coli str. K-12 substr. MG1655,511145.0,YihR,SQ mutarotase,sulfo-EMP
+sp|P32140|SQUS_ECOLI,yihS,,,,Escherichia coli str. K-12 substr. MG1655,511145.0,YihS,Sulfoquinovose isomerase,sulfo-EMP
+XKS62008.1,yihS,,,,Escherichia coli str. K-12 substr. MG1655,511145.0,YihS,SQ isomerase,sulfo-EMP
+sp|P32141|SQUT_ECOLI,yihT,,,yes,Escherichia coli str. K-12 substr. MG1655,511145.0,YihT,Sulfofructosephosphate aldolase,sulfo-EMP
+XKS62009.1,yihT,,,yes,Escherichia coli str. K-12 substr. MG1655,511145.0,YihT,SFP aldolase,sulfo-EMP
+sp|P0A9V8|SQUU_ECOLI,yihU,,,,Escherichia coli str. K-12 substr. MG1655,511145.0,YihU,3-sulfolactaldehyde reductase,"sulfo-EMP, ED, TAL"
+XKS62010.1,yihU,,,,Escherichia coli str. K-12 substr. MG1655,511145.0,YihU,SLA reductase,sulfo-EMP
+XKS62011.1,yihV,,,yes,Escherichia coli str. K-12 substr. MG1655,511145.0,YihV,SF kinase,sulfo-EMP
+sp|P32143|SQUV_ECOLI,yihV,,,yes,Escherichia coli str. K-12 substr. MG1655,511145.0,YihV,Sulfofructose kinase,sulfo-EMP
