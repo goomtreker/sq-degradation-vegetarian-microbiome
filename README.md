@@ -1,4 +1,4 @@
-# SQ Degradation Pathway Analysis in Human Gut Microbiome
+# Analysis of SQ Degradation Pathways in Human Gut Microbiome
 
 This pipeline identifies and characterizes microbial enzymes and gene clusters involved in **sulfoquinovose (SQ) degradation** across gut microbiomes of vegetarians and non-vegetarians.
 
