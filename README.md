@@ -17,7 +17,7 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 ---
 
 ## 📁 Directory Structure
-
+```
 ./
 ├── code
 │   ├── bin
@@ -36,3 +36,4 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 │   └── metadata_rpkm.csv
 ├── environment.yml
 └── README.md
+```
