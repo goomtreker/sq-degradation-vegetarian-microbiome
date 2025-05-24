@@ -10,7 +10,7 @@ library(scales)
 
 # import data
 
-LastDataset <- read_excel("LastDataset.xlsx")
+LastDataset <- read_excel("SQD_AGP.xlsx")
 input_data2 <- LastDataset
 input_data2 <- as.data.frame(input_data2)
 rownames(input_data2) <- input_data2$X
@@ -18,7 +18,7 @@ input_data2 <- input_data2[,-1]
 
 
 # import metadata
-input_metadata <- read.csv('metadata_rpkm.csv',sep = ';')
+input_metadata <- read.csv('AGP_metadata_all.csv',sep = ';')
 rownames(input_metadata) <- input_metadata$sample_name
 input_metadata <- input_metadata[,-1]
 input_metadata$diet_type <- input_metadata$diet_type %>%
