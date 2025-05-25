@@ -63,12 +63,13 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 
 ### 🗃️ Data Description
 
-[AGPsamplesmetadata](data/AGPsamplemetadata.csv) - Metadata information for selected AGP samples
-[LocusMetadata](data/LocusMetadata.csv) - Information about gene clusters
-[SQ_degradation_enzymes](data/SQ_degradation_enzymes.fasta) - Fasta file with proteins linked to SQ-degradation pathways
-[SQD_locus_for_mapping](data/SQD_locus_for_mapping.fasta) - Fasta file with retieved SQ-degradation locuses from UHGG samples
-[SQDegradation](data/SQDegradationEnzymesMeta.csv) - Metadata infomation for SQ-degradation locuses
-[SQDegradationEnzymesMeta](data/SQDegradationEnzymesMeta.csv) - Metadata infomation for SQ-degradation proteins
+- [AGPsamplesmetadata](data/AGPsamplemetadata.csv) - Metadata information for selected AGP samples
+- [AGPsamplesmetadata](data/AGPsamplemetadata.csv) - Metadata information for selected AGP samples
+- [LocusMetadata](data/LocusMetadata.csv) - Information about gene clusters
+- [SQ_degradation_enzymes](data/SQ_degradation_enzymes.fasta) - Fasta file with proteins linked to SQ-degradation pathways
+- [SQD_locus_for_mapping](data/SQD_locus_for_mapping.fasta) - Fasta file with retieved SQ-degradation locuses from UHGG samples
+- [SQDegradation](data/SQDegradationEnzymesMeta.csv) - Metadata infomation for SQ-degradation locuses
+- [SQDegradationEnzymesMeta](data/SQDegradationEnzymesMeta.csv) - Metadata infomation for SQ-degradation proteinsyour_email
 
 ---
 
