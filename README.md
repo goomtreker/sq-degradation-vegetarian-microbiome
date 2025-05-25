@@ -32,6 +32,7 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 │   │   ├── FindLocalGroup.py
 │   │   ├── jackhmmer.sh
 │   │   └── phyl.R
+|   |   └── mmseq_cluster.sh
 │   └── SQDegradationAnalysis.ipynb
 ├── data
 │   └── metadata_rpkm.csv
@@ -51,6 +52,8 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 - [`FindLocalGroup.py`](code/bin/FindLocalGroup.py) — Detects co-localized genes within a 5000 bp window and generates annotated GFF-style DataFrames (python).
 - [`jackhmmer.sh`](code/bin/jackhmmer.sh) — Runs JackHMMER protein alignments against the target database (bash).
 - [`phyl.R`](code/bin/phyl.R) — Infers phylogenetic relationships based on the identified gene clusters (R).
+- [`mmseq_cluster.sh`](code/bin/mmseq_cluster.sh) — Cluster gene locus with different settings.
+
 
 
 ---
