@@ -12,7 +12,10 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 - Annotates gene hits with pathway and taxonomic information.
 - Groups enzymes into **co-located loci** using GFF annotation.
 - Detects **core metabolic pathways** (sulfo-EMP, -TK, -TAL, -ED).
+- Provide ANCOM-BC for 16S rRNA amplicon data with **QIIME**. 
+- Mapped 16S rRNA amplicon to Metagenomic data by **bwa-mem** and **coverM**.
 - Performs **visualization** and **OLS statistical modeling** of pathway abundance.
+  
 
 ---
 
