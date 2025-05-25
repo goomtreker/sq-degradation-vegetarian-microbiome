@@ -84,5 +84,5 @@ conda activate sqd-analysis
 
 ## 📬 Contact
 
-For questions, suggestions, or collaboration inquiries, feel free to open an issue or contact [anurovartemiy@gmail.com].
+For questions, suggestions, or workflow errors feel free to open an issue or contact [anurovartemiy@gmail.com].
 
