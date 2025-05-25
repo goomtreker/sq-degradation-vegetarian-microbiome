@@ -10,32 +10,21 @@ qiime tools import \
 # filtration feature-table by diet in metadata
 qiime feature-table filter-samples \ 
   --i-table agp_counts.qza \
-  --m-metadata-file metadata_filter.csv \ # filtrated metadata in pandas by diet (example)
+  --m-metadata-file ../data/metadata_filter_o_v.csv \ 
   --o-filtered-table filtered_agp_counts.qza
-
-
-# import RTW CLASS
-git clone https://github.com/BenKaehler/readytowear.git
-
-# create class
-qiime feature-classifier fit-classifier-naive-bayes \
-  --i-reference-reads gg_13_8/515f-806r/ref-seqs.qza \
-  --i-reference-taxonomy ref-tax.qza \
-  --i-class-weight human-stool.qza \
-  --o-classifier gg138_v4_human-stool_classifier.qza
 
 # taxa collapse
   qiime2-amplicon-2024.10.sif \
   qiime taxa collapse \
   --i-table agp_counts_asv.qza \
-  --i-taxonomy taxonomy.qza \
+  --i-taxonomy ../data/taxonomy.qza \
   --p-level 6 \
   --o-collapsed-table collapsed_agp_table.qza
 
 # ancom-bc
    qiime composition ancombc \
   --i-table collapsed_agp_table.qza \
-  --m-metadata-file metadata_filter_o_v.tsv \
+  --m-metadata-file ../data/metadata_filter_o_v.csv \
   --p-formula "diet_type" \
   --p-p-adj-method 'bonferroni' \
   --p-prv-cut 0.1 \

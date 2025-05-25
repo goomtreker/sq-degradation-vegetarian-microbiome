@@ -11,8 +11,11 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 - Uses **DIAMOND** and **JackHMMER** to find homologs of SQ-degrading enzymes in the **UHGP** database.
 - Annotates gene hits with pathway and taxonomic information.
 - Groups enzymes into **co-located loci** using GFF annotation.
-- Detects **core metabolic pathways** (EMP, TK, TAL, ED).
+- Detects **core metabolic pathways** (sulfo-EMP, -TK, -TAL, -ED).
+- Provide ANCOM-BC for 16S rRNA amplicon data with **QIIME**. 
+- Mapped 16S rRNA amplicon to Metagenomic data by **bwa-mem** and **coverM**.
 - Performs **visualization** and **OLS statistical modeling** of pathway abundance.
+  
 
 ---
 
@@ -55,6 +58,8 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 - [`FindLocalGroup.py`](code/bin/FindLocalGroup.py) — Detects co-localized genes within a 5000 bp window and generates annotated GFF-style DataFrames (python).
 - [`jackhmmer.sh`](code/bin/jackhmmer.sh) — Runs JackHMMER protein alignments against the target database (bash).
 - [`phyl.R`](code/bin/phyl.R) — Infers phylogenetic relationships based on the identified gene clusters (R).
+- [`mmseq_cluster.sh`](code/bin/mmseq_cluster.sh) — Cluster gene locus with different settings.
+
 
 ### 🗃️ Data Description
 
