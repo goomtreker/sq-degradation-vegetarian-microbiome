@@ -11,7 +11,7 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 - Uses **DIAMOND** and **JackHMMER** to find homologs of SQ-degrading enzymes in the **UHGP** database.
 - Annotates gene hits with pathway and taxonomic information.
 - Groups enzymes into **co-located loci** using GFF annotation.
-- Detects **core metabolic pathways** (EMP, TK, TAL, ED).
+- Detects **core metabolic pathways** (sulfo-EMP, -TK, -TAL, -ED).
 - Performs **visualization** and **OLS statistical modeling** of pathway abundance.
 
 ---
