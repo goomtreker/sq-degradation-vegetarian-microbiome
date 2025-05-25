@@ -22,23 +22,26 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 ## 📁 Directory Structure
 ---
 ```
-./
+.
 ├── code
-│   ├── bin
-│   │   ├── amplicon_data_analysis.sh
-│   │   ├── bwa_samtools.sh
-│   │   ├── coverm.sh
-│   │   ├── DA_species_masline2.R
-│   │   ├── diamond.sh
-│   │   ├── exctractlocuses.py
-│   │   ├── ExtractLocalGroup.py
-│   │   ├── FindLocalGroup.py
-│   │   ├── jackhmmer.sh
-│   │   └── phyl.R
-|   |   └── mmseq_cluster.sh
-│   └── SQDegradationAnalysis.ipynb
+│   ├── bin
+│   │   ├── amplicon_data_analysis.sh
+│   │   ├── bwa_samtools.sh
+│   │   ├── coverm.sh
+│   │   ├── DA_species_masline2.R
+│   │   ├── diamond.sh
+│   │   ├── exctractlocuses.py
+│   │   ├── ExtractLocalGroup.py
+│   │   ├── FindLocalGroup.py
+│   │   ├── jackhmmer.sh
+│   │   ├── mmseq_cluster.sh
+│   │   └── phyl.R
+│   └── SQDegradationAnalysis.ipynb
 ├── data
-│   └── metadata_rpkm.csv
+│   ├── AGPsamplemetadata.csv
+│   ├── LocusMetadata.csv
+│   ├── SQ_degradation_enzymes.fasta
+│   └── SQDegradationEnzymesMeta.csv
 ├── environment.yml
 └── README.md
 ```
@@ -58,6 +61,14 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 - [`mmseq_cluster.sh`](code/bin/mmseq_cluster.sh) — Cluster gene locus with different settings.
 
 
+### 🗃️ Data Description
+
+[AGPsamplesmetadata](data/AGPsamplemetadata.csv) - Metadata information for selected AGP samples
+[LocusMetadata](data/LocusMetadata.csv) - Information about gene clusters
+[SQ_degradation_enzymes](data/SQ_degradation_enzymes.fasta) - Fasta file with proteins linked to SQ-degradation pathways
+[SQD_locus_for_mapping](data/SQD_locus_for_mapping.fasta) - Fasta file with retieved SQ-degradation locuses from UHGG samples
+[SQDegradation](data/SQDegradationEnzymesMeta.csv) - Metadata infomation for SQ-degradation locuses
+[SQDegradationEnzymesMeta](data/SQDegradationEnzymesMeta.csv) - Metadata infomation for SQ-degradation proteins
 
 ---
 
@@ -69,3 +80,8 @@ You can create the environment with:
 conda env create -f environment.yml
 conda activate sqd-analysis
 ```
+
+## 📬 Contact
+
+For questions, suggestions, or collaboration inquiries, feel free to open an issue or contact [anurovartemiy@gmail.com].
+
