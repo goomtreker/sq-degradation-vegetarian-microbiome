@@ -48,7 +48,7 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 
 ### 🔧 Script Descriptions
 
-- [`amplicon_data_analysis.sh`](code/bin/amplicon_data_analysis.sh) — Bash script for processing amplicon variation data.
+- [`amplicon_data_analysis.sh`](code/bin/amplicon_data_analysis.sh) — Bash script for processing amplicon variation data including taxonomic reconstruction and ancom-bc analysis.
 - [`bwa_samtools.sh`](code/bin/bwa_samtools.sh) — Bash pipeline for mapping reads using BWA and processing alignments with SAMtools.
 - [`coverm.sh`](code/bin/coverm.sh) — Calculates RPKM values from read mappings for AGP locus coverage analysis (bash).
 - [`DA_species_masline2.R`](code/bin/DA_species_masline2.R) — Builds a MASLiNE model for differential abundance of species (R).
@@ -90,10 +90,10 @@ conda activate sqd-analysis
 
 The gut microbial communities differed in taxonomic composition.  With Vegetarian diet type were associated *Bifidobacterium adolescentis, Coprococcus catus, Bacteroides ovatus, Roseburia faecis*, whereas with Omnivores - *Ruminococcus torques, Parabacteroides distasonis, Alistipes putredinis, Eubacterium dolichum, Ruminococcus gnavus*.
 Taxonomy analysis showed that the majority of SQ-degrading loci in the gut microbiome were associated with representatives of three phyla: *Pseudomonadota* (sulfo-EMP), *Bacteroidota* (sulfo-TK) and *Firmicutes* (sulfo-EMP, -TK, -TAL), figures 1. Notably,  *Firmicutes* possessed the most diverse repertoire of SQ degradation pathways. Loci were also found in *Actinomycetota* (sulfo-TAL), *Verrucomicrobiota* (sulfo-EMP) and other phyla, but their proportion in the gut microbial community was much lower.
-
-[Figures 1, Phylogenetic tree of SQD taxons, based on UHGP data, where green is presence; red is absence of SGP; obtained via ggtree | ../data/phylogenetic_tree.png]
+![Figures 1, Phylogenetic tree of SQD taxons, based on UHGP data, where green is presence; red is absence of SGP; obtained via ggtree](../data/phylogenetic_tree.png)
 
 Based on the results of linear models, we found correlations between diet type and the composition of SQ degraders in the gut microbiome. For example, the bacteria *Mediterraneibacter faecis* and *Phocaeicola dorei* were associated with an omnivorous diet, whereas *Phocaeicola sartorii* and *Bacteroides acidifaciens* were associated with a vegetarian diet (p-value < 0.01), figures 2.
+![Figures 2, The RPKM dependence on diet and species, sex, age and bmi, based on mapped AGP on UHGP data, OLS(python)](../data/OLS.jpg)
 
 ---
 
