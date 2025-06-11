@@ -75,6 +75,8 @@ It integrates HMMER, DIAMOND, genome annotations, and pathway reconstruction to 
 
 ## ⚙️ Requirements
 
+To implement scripts, you need to be able to use 24 CPU and
+
 You can create the environment with:
 
 ```bash
@@ -82,7 +84,23 @@ conda env create -f environment.yml
 conda activate sqd-analysis
 ```
 
+---
+
+### 📊 Results
+
+The gut microbial communities differed in taxonomic composition.  With Vegetarian diet type were associated *Bifidobacterium adolescentis, Coprococcus catus, Bacteroides ovatus, Roseburia faecis*, whereas with Omnivores - *Ruminococcus torques, Parabacteroides distasonis, Alistipes putredinis, Eubacterium dolichum, Ruminococcus gnavus*.
+Taxonomy analysis showed that the majority of SQ-degrading loci in the gut microbiome were associated with representatives of three phyla: *Pseudomonadota* (sulfo-EMP), *Bacteroidota* (sulfo-TK) and *Firmicutes* (sulfo-EMP, -TK, -TAL). Notably,  *Firmicutes* possessed the most diverse repertoire of SQ degradation pathways. Loci were also found in *Actinomycetota* (sulfo-TAL), *Verrucomicrobiota* (sulfo-EMP) and other phyla, but their proportion in the gut microbial community was much lower.
+Based on the results of linear models, we found correlations between diet type and the composition of SQ degraders in the gut microbiome. For example, the bacteria *Mediterraneibacter faecis* and *Phocaeicola dorei* were associated with an omnivorous diet, whereas *Phocaeicola sartorii* and *Bacteroides acidifaciens* were associated with a vegetarian diet (p-value < 0.01)
+
+---
+
+### 🚀 Conclusions 
+
+we have developed an algorithm for studying SQ utilization, clarified the taxonomic distribution  of  key SQ-degrading bacteria in the human gut, and revealed the associations  between specific bacterial species and the type of diet. These findings  may contribute to the development of new diagnostic and preventative strategies for intestinal diseases associated with sulfoquinovose metabolism
+
+---
+
 ## 📬 Contact
 
-For questions, suggestions, or workflow errors feel free to open an issue or contact [anurovartemiy@gmail.com].
+For questions, suggestions, or workflow errors feel free to open an issue or contact to us [anurovartemiy@gmail.com], [vladisluw@yandex.ru], [rybinaann@gmail.com].
 
